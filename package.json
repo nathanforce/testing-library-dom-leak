@@ -1,0 +1,20 @@
+{
+  "name": "jsdom-memleak",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "DEBUG_PRINT_LIMIT=5 node --expose-gc ./test/app.test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@testing-library/dom": "^7.29.4",
+    "esbuild": "^0.8.34",
+    "jsdom": "^16.4.0"
+  },
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
